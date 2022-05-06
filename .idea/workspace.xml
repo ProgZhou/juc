@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a73ce00-1094-4dcd-9edb-48c50a9dbcdc" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/theory/TestFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,7 +51,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="应用程序.ThreadTest18">
+  <component name="RunManager" selected="应用程序.ThreadTest19">
     <configuration name="ThreadTest18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest18" />
       <module name="demo02" />
@@ -65,7 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest17.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadTest19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest19" />
       <module name="demo02" />
       <extension name="coverage">
         <pattern>
@@ -73,10 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.concurrent.demo02.thread" />
-      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest17" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ThreadTest19" />
         <item itemvalue="应用程序.ThreadTest18" />
         <item itemvalue="JUnit.ThreadTest18.test2" />
         <item itemvalue="JUnit.ThreadTest18.test1" />
         <item itemvalue="JUnit.ThreadTest17.test3" />
-        <item itemvalue="JUnit.ThreadTest17.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +166,24 @@
       <workItem from="1651479653741" duration="8045000" />
       <workItem from="1651563893657" duration="3026000" />
       <workItem from="1651646429883" duration="9773000" />
-      <workItem from="1651732227334" duration="8135000" />
+      <workItem from="1651732227334" duration="9706000" />
+      <workItem from="1651818462931" duration="9162000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1651751102086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651751102086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
