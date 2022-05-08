@@ -149,4 +149,65 @@ public class ThreadTest20 {
         ));
         log.debug("{}", s);
     }
+
+    //shutdown方法测试
+    @Test
+    public void test7() {
+        ExecutorService pool = Executors.newFixedThreadPool(2);
+        Future<Integer> result1 = pool.submit(() -> {
+            log.debug("task1 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task1 end...");
+            return 1;
+        });
+        Future<Integer> result2 = pool.submit(() -> {
+            log.debug("task2 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task2 end...");
+            return 2;
+        });
+        Future<Integer> result3 = pool.submit(() -> {
+            log.debug("task3 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task3 end...");
+            return 3;
+        });
+
+        log.debug("shutdown");
+        pool.shutdown();
+        log.debug("other code execute...");
+    }
+
+    public static void main(String[] args) {
+        ExecutorService pool = Executors.newFixedThreadPool(2);
+        Future<Integer> result1 = pool.submit(() -> {
+            log.debug("task1 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task1 end...");
+            return 1;
+        });
+        Future<Integer> result2 = pool.submit(() -> {
+            log.debug("task2 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task2 end...");
+            return 2;
+        });
+        Future<Integer> result3 = pool.submit(() -> {
+            log.debug("task3 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task3 end...");
+            return 3;
+        });
+
+        log.debug("shutdown");
+        pool.shutdown();
+        //如果在shutdown之后再想提交任务，则报错
+        log.debug("other code execute...");
+        Future<Integer> result4 = pool.submit(() -> {
+            log.debug("task4 begin...");
+            TimeUtil.sleep(1);
+            log.debug("task4 end...");
+            return 3;
+        });
+    }
 }
