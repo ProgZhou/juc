@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a73ce00-1094-4dcd-9edb-48c50a9dbcdc" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,33 +53,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="应用程序.ThreadTest23">
-    <configuration name="ThreadTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest20" />
-      <module name="demo02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrent.demo02.thread.ThreadTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest21" />
-      <module name="demo02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrent.demo02.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ThreadTest26.test1">
     <configuration name="ThreadTest22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest22" />
       <module name="demo02" />
@@ -107,17 +80,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest20.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadTest25.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrent.demo02.thread.ThreadTest" />
+          <option name="PATTERN" value="com.concurrent.demo02.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.concurrent.demo02.thread" />
-      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest20" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest25" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest25.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.demo02.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.concurrent.demo02.thread" />
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest25" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest26.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.demo02.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.concurrent.demo02.thread" />
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.demo02.thread.ThreadTest26" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreadTest26.test1" />
+        <item itemvalue="JUnit.ThreadTest25.test2" />
+        <item itemvalue="JUnit.ThreadTest25.test1" />
         <item itemvalue="应用程序.ThreadTest23" />
         <item itemvalue="应用程序.ThreadTest22" />
-        <item itemvalue="应用程序.ThreadTest21" />
-        <item itemvalue="应用程序.ThreadTest20" />
-        <item itemvalue="JUnit.ThreadTest20.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +174,9 @@
       <workItem from="1651991584213" duration="138000" />
       <workItem from="1651997739915" duration="4257000" />
       <workItem from="1652005556628" duration="15000" />
-      <workItem from="1652164420212" duration="7476000" />
+      <workItem from="1652164420212" duration="7634000" />
+      <workItem from="1652252126689" duration="7662000" />
+      <workItem from="1652423639328" duration="7669000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1651751102086</created>
@@ -199,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652002123450</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sixth commit">
+      <created>1652186716226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652186716226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +224,7 @@
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
     <MESSAGE value="fifth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth commit" />
+    <MESSAGE value="sixth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sixth commit" />
   </component>
 </project>
