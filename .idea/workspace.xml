@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a73ce00-1094-4dcd-9edb-48c50a9dbcdc" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/concurrent/demo02/thread/ThreadTest28.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +179,8 @@
       <workItem from="1652164420212" duration="7634000" />
       <workItem from="1652252126689" duration="7662000" />
       <workItem from="1652423639328" duration="8840000" />
-      <workItem from="1652597145826" duration="3479000" />
+      <workItem from="1652597145826" duration="4302000" />
+      <workItem from="1652942000244" duration="6190000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1651751102086</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652433373539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="eighth commit">
+      <created>1652601043914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652601043914</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +244,7 @@
     <MESSAGE value="fifth commit" />
     <MESSAGE value="sixth commit" />
     <MESSAGE value="seventh commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="seventh commit" />
+    <MESSAGE value="eighth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eighth commit" />
   </component>
 </project>
